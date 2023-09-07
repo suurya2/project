@@ -1,0 +1,336 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10984542500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to launch the Threadless application through chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_launch_the_Threadless_application_through_chrome_Browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-05T06:45:18.050Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1504500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befr()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To validate the Login with Valid user name and Valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-threadless-application;to-validate-the-login-with-valid-user-name-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 106200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356746900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to click the login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 855328000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User have to enter with the Valid user name and Valid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_with_the_Valid_user_name_and_Valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "abc123@email.com",
+                  "Abcd@1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80149200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User have to click the Log Me In button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_Log_Me_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9489700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To verify the page title",
+            "match": {
+              "location": "StepDefinition.to_verify_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@valid"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login Functionality of Threadless Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-threadless-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-05T06:45:30.384Z",
+        "before": [
+          {
+            "result": {
+              "duration": 132700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.befr()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate the payment page Functionality with Valid Card Details",
+        "description": "",
+        "id": "to-validate-the-payment-page-functionality-in-threadless-application;to-validate-the-payment-page-functionality-with-valid-card-details",
+        "after": [
+          {
+            "result": {
+              "duration": 114300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Aftr()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10173571300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to launch the Threadless application through chrome Browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_launch_the_Threadless_application_through_chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266029300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to enter the Product name in Search artist textbox",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_the_Product_name_in_Search_artist_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32872438600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to select the product,Click AddtoCart button and click Securly Checkout button",
+            "match": {
+              "location": "StepDefinition.user_have_to_select_the_product_Click_AddtoCart_button_and_click_Securly_Checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13461970800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to Enter  valid details in checkout Page and click the Continue button",
+            "match": {
+              "location": "StepDefinition.user_have_to_Enter_valid_details_in_checkout_Page_and_click_the_Continue_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "Country",
+                  "FirstName",
+                  "LastName",
+                  "Address1",
+                  "address2",
+                  "City",
+                  "State",
+                  "postalcode",
+                  "phoneNum"
+                ]
+              },
+              {
+                "cells": [
+                  "abc123@gmail.com",
+                  "United",
+                  "Virat",
+                  "Vk",
+                  "Royal,street",
+                  "newbuilding",
+                  "Neywork",
+                  "Neywork",
+                  "12354",
+                  "1234567890"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891073100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Have to select the Payment Method",
+            "match": {
+              "location": "StepDefinition.user_Have_to_select_the_Payment_Method()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4460792500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user have to enter the Valid Card Details",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_the_Valid_Card_Details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CCnumber",
+                  "CCexpdate",
+                  "CVV",
+                  "Postalcode"
+                ]
+              },
+              {
+                "cells": [
+                  "4444444444445555",
+                  "0229",
+                  "782",
+                  "12401"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101713600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User have to click the placeOrder button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_placeOrder_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@payment"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the payment page Functionality in ThreadLess Application",
+    "description": "",
+    "id": "to-validate-the-payment-page-functionality-in-threadless-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Payment.feature",
+    "tags": [
+      {
+        "name": "@payment",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
